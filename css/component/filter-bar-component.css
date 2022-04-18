@@ -1,0 +1,77 @@
+
+.filter-bar {
+  display: flex;
+}
+
+.filter-bar__select {
+  background: url("data:image/svg+xml,<svg height='12px' width='16px'  xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d='M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z'/></svg>")
+    no-repeat;
+  background-position: calc(100% - 0.75rem) center !important;
+  width: 156px;
+  height: 46px;
+  padding: 12px 16px 12px 16px;
+  border: 2px solid #000400;
+}
+
+.filter-bar__select-text {
+  width: 64px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font-size: 16px;
+  line-height: 19px;
+  /* font-family: 'Azeret Mono', monospace; */
+  color: #000400;
+}
+
+.filter-bar__input-group {
+  display: flex;
+}
+
+.filter-bar__input {
+  width: 319px;
+  height: 46px;
+  border-color: var(--black);
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 0px;
+  padding: 12px 16px 12px 16px;
+}
+
+.filter-bar__input-btn {
+  background: var(--blue-500);
+  border: 2px solid var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+
+.filter-bar__input-btn:hover {
+  background: var(--yellow);
+}
+
+.magnifying-glass {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+}
+
+.writemsg-btn {
+  width: 100%;
+  border: 2px solid var(--black);
+  height: 45px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  background: var(--yellow);
+}
+
+.writemsg-btn:hover {
+  background: var(--yellow);
+  opacity: 0.8;
+}
