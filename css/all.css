@@ -1,19 +1,19 @@
 :root {
   --white: #ffffff;
   --black: #000400;
-  --yellow: #EEC32A;
-  --grey-100: #EFECE7;
+  --yellow: #eec32a;
+  --grey-100: #efece7;
   --grey-200: #e0e0e0;
   --grey-300: #707070;
-  --grey-400: #9B9893;
-  --blue-100: #E2EDFA;
-  --blue-500: #03438D;
-
+  --grey-400: #9b9893;
+  --blue-100: #e2edfa;
+  --blue-500: #03438d;
+  --red: #dc3545;
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Noto Sans TC';
+  font-family: "Noto Sans TC";
 }
 
 body {
@@ -41,4 +41,3 @@ img {
   border: 2px solid #000;
   padding: 32px;
 }
-
