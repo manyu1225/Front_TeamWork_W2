@@ -20,7 +20,7 @@
   <body>
     <div class="container">
       <h1 class="title">張貼動態</h1>
-      <form>
+      <form class="form">
         <div class="mb-2">
           <label for="userName" class="form-label">發文者名稱</label>
           <input
@@ -29,7 +29,6 @@
             id="userName"
             class="form-control"
             placeholder="輸入發文者名稱"
-            required
           />
         </div>
         <div class="mb-2">
@@ -40,7 +39,6 @@
             id="userPhoto"
             class="form-control"
             placeholder="輸入發文者照片網址"
-            required
           />
         </div>
         <div class="mb-2">
@@ -52,7 +50,6 @@
             cols="30"
             rows="10"
             placeholder="輸入貼文內容"
-            required
           ></textarea>
         </div>
         <div class="mb-4">
@@ -67,10 +64,18 @@
         </div>
         <p class="form-error"></p>
         <div class="form-footer">
-          <input type="submit" value="送出貼文" class="form-btn" />
+          <button
+            type="button"
+            value="送出貼文"
+            class="form-btn"
+            onclick="createPost()"
+          >
+            送出貼文
+          </button>
         </div>
       </form>
     </div>
     <script src="./js/http.js"></script>
+    <script src="./js/createPost.js"></script>
   </body>
 </html>
